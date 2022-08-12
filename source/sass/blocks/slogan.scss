@@ -1,0 +1,44 @@
+.slogan__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.slogan__desc {
+    font-size: 12px;
+    margin: 0;
+    max-width: 170px;
+}
+
+@media (min-width: $tablet-width) {
+    .slogan__title {
+        font-weight: 700;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+    
+    .slogan__desc {
+        font-size: 14px;
+        margin: 0;
+        max-width: 280px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .slogan__title {
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 16px;
+    }
+
+    .slogan__desc {
+        font-size: 18px;
+        line-height: 21px;
+        max-width: 416px;
+        margin: 0;
+    }
+}

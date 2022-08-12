@@ -1,0 +1,25 @@
+.page-header {
+    background-color: #000000;
+}
+
+.page-header__navigation {
+    padding: 23px 10% 22px;
+    margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+    .page-header__navigation {
+        width: $tablet-width - 80px;
+        padding: 23px 40px 22px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .page-header__navigation {
+        width: $desktop-width - 128px;
+        padding: 23px 64px 22px;
+        margin: 0 auto;
+    }
+}
+

@@ -1,0 +1,25 @@
+.basket__link {
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+}
+
+.basket__icon {
+    width: 32px;
+    height: 28px;
+}
+
+.basket__products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    background-color: #FCB500;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 24px;
+    position: relative;
+    top: 20px;
+    left: -10px;
+}

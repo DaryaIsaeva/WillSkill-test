@@ -1,0 +1,39 @@
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price__before {
+    color: #ADADAD;
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-right: 22px;
+}
+
+.price__after {
+    font-size: 24px;
+}
+
+@media (min-width: $tablet-width) {
+    .price__before {
+        font-size: 26px;
+        margin-right: 28px;
+    }
+    
+    .price__after {
+        font-size: 32px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .price__before {
+        font-size: 36px;
+        line-height: 43px;
+        margin-right: 32px;
+    }
+
+    .price__after {
+        font-size: 48px;
+        line-height: 57px;
+    }
+}
